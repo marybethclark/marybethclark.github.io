@@ -157,7 +157,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         color: white;
         text-decoration: none;
     }
-    // ///////// Thanks Jason//////
+
     .about-button-wrap .about-button3 a:hover {
         color: #42313F;
         text-decoration: none;
@@ -305,7 +305,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     font-size: 1.1em;
     text-align: left;
-    padding-left: 5px;
+    padding: 15px;
     }
 
     #footer {
@@ -321,147 +321,3 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         color: white;
         text-decoration: none;
     }
-
-
-    // #test{
-    //   padding-left: 30px;
-    //   width:300px;
-    //   height: 700px;
-    //   border: 9px solid black;
-    //   display: block;
-    //   float: left;
-    //   }
-    // #projects {
-    //     margin: 10% 5% 20%;
-    //     box-sizing: border-box;
-    //     width: 90%;
-    // }
-    // #projects .card-wrap {
-    //     width: 50%;
-    //     display: inline-block;
-    //     margin: 0 0 2%;
-    // }
-    //
-    // #projects .project-card {
-    //     width: 90%;
-    //     margin: 5%;
-    //     border: solid 1px #ececec;
-    //     box-sizing: border-box;
-    //     display: inline-block;
-    //     color: black;
-    //     text-align: center;
-    //     font-size: 1.5em;
-    //     padding: 5% 0;
-    //     border-radius: 2%;
-    //     font-family: "Open Sans", "Arial", sans-serif;
-    // }
-    // #projects .project-card .img-wrap {
-    //     height: 45%;
-    // }
-    // #projects .project-card .title-desc .project-title {
-    //     padding: 2px;
-    //     font-family: "Montserrat", sans-serif;
-    //     font-size: 1.2em;
-    //     height: 10%;
-    // }
-    // #projects .project-card .title-desc .project-desc {
-    //     font-size: 0.8em;
-    //     font-weight: 300;
-    //     margin-top: 10px;
-    //     height: 10%;
-    // }
-    // #projects .project-card .title-desc .tech-desc {
-    //     margin: 25px 0 0;
-    //     font-size: 0.8em;
-    //     font-weight: 300;
-    //     height: 10%;
-    // }
-    // .about-button-wrap .about-button2 a:visited {
-    //     color: white;
-    //     text-decoration: none;
-    // }
-    //
-    // .about-button-wrap .about-button3 a:visited {
-    //     color: white;
-    //     text-decoration: none;
-    // }
-    // ///////////////////////
-    //     /*  SECTIONS  */
-    //     .section {
-    //         clear: both;
-    //         padding: 0;
-    //         margin: 0;
-    //     }
-    //     /*  COLUMN SETUP  */
-    //     .col {
-    //         display: inline-block;
-    //         float: left;
-    //         margin: 1% 0 1% 1.6%;
-    //     }
-    //     .col:first-child {
-    //         margin-left: 0;
-    //     }
-    //     /*  GROUPING  */
-    //     .group:after,
-    //     .group:before {
-    //         content: "";
-    //         display: table;
-    //     }
-    //     .group:after {
-    //         clear: both;
-    //     }
-    //     .group {
-    //         zoom: 1;
-    //         /* For IE 6/7 */
-    //     }
-    //     /*  GRID OF THREE  */
-    //     .span_3_of_3 {
-    //         width: 100%;
-    //     }
-    //     .span_2_of_3 {
-    //         width: 66.1%;
-    //     }
-    //     .span_1_of_3 {
-    //         width: 32.2%;
-    //     }
-    //     /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-    //     @media only screen and (max-width: 480px) {
-    //         .col {
-    //             margin: 1% 0;
-    //         }
-    //         .span_1_of_3,
-    //         .span_2_of_3,
-    //         .span_3_of_3 {
-    //             width: 100%;
-    //         }
-    //     }
-    //
-    //
-    // // .pearlImg {
-    // //     width: 33%;
-    // //     border: 0.1em solid $midGreyGreen;
-    // //     border-radius: 15px;
-    // //     margin-top: 1em;
-    // //     margin-left: 0.5em;
-    // //     display: inline-block;
-    // //     // float:left;
-    // // }
-    // // .memorygameImg {
-    // //     width: 33%;
-    // //     border: 0.1em solid $midGreyGreen;
-    // //     border-radius: 15px;
-    // //     margin-top: 1em;
-    // //     margin-left: 0.5em;
-    // //     display: inline-block;
-    // //     // float:left;
-    // // }
-    // // .responsiveIconImg {
-    // //     width: 33%;
-    // //     border: 0.1em solid $midGreyGreen;
-    // //     border-radius: 15px;
-    // //     margin-top: 1em;
-    // //     margin-left: 0.5em;
-    // //     display: inline-block;
-    // //     // float:left;
-    // // }
-    // }
