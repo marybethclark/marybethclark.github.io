@@ -4,7 +4,9 @@
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  max-width: 1228px;
+  max-height: 648px; }
 
 #header {
   width: 100%;
