@@ -319,11 +319,11 @@
     #aboutSection #myBio {
       display: inline-block;
       font-family: "Open Sans", "Arial", sans-serif;
-      line-height: 1.5;
+      line-height: 1.2;
       font-size: 1.2em;
       width: 40%;
       height: 400px;
-      margin: -380px 1px 200px 45%;
+      margin: -380px 1px 200px 55%;
       text-align: left;
       vertical-align: middle; }
     #aboutSection .about-button-wrap {
