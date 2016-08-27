@@ -7,6 +7,8 @@ $lightGreyGreen: #D7E2DF;
 $darkGreyGreen: #5D6C67;
 $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
 // font-family: 'Montserrat', sans-serif;
+
+// Thanks to Tori Headden and Jason Jordan for their styling code portions.
 #contentWrapper {
     margin: 0;
     padding: 0;
@@ -14,10 +16,10 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    max-width: 1228px;
-    max-height:648px;
 }
-// @media (max-width: 840px) and (min-width: 600px)
+// ////////////  DESKTOP VIEW  ////////////
+@media only screen
+  and (min-width: 1020px) {
 #header {
     width: 100%;
     height: 90px;
@@ -63,11 +65,14 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
 #aboutSection {
     margin: 5% 0;
     #large-portrait {
+        // display: inline-block;
+        margin-left: 15%;
+        // margin-top: -20px;
+        // border: 2px solid #42313F;
+        // border-radius: 5px;
         display: inline-block;
-        margin-left: 5%;
-        margin-top: -20px;
-        border: 2px solid #42313F;
-        border-radius: 5px;
+        // margin-left: -45%;
+
     }
     #myBio {
         display: inline-block;
@@ -79,8 +84,9 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         margin: -400px 5% 300px 40%;
         text-align: left;
         vertical-align: middle;
+
     }
-    // @media (max-width: 840px) and (min-width: 600px)
+
     .about-button-wrap {
         display: inline-block;
         margin: 5% 30% 5% 0;
@@ -272,6 +278,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       height: 60%;
       text-align: center;
       vertical-align: top;
+      margin-top: -200px;
     }
 
 .dot{
@@ -298,15 +305,16 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
 
     .projectTitle{
       font-family: "Open Sans", "Arial", sans-serif;
-      line-height: 1.6;
-      font-size: 2em;
+    line-height: 1.6;
+    font-size: 1.4em;
     }
 
     .projectDescription{
       font-family: "Open Sans", "Arial", sans-serif;
-      line-height: 1.5;
-      font-size: 1.1em;
-      padding: 15px;
+    line-height: 1.5;
+    font-size: 1.1em;
+    text-align: left;
+    padding: 15px;
     }
 
     #footer {
@@ -322,3 +330,647 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         color: white;
         text-decoration: none;
     }
+  }
+////////////  TABLET VIEW  ////////////
+@media only screen
+  and (min-width: 480px)
+  and (max-width: 1020px){
+#header {
+    width: 100%;
+    height: 90px;
+    color: white;
+    background-color: #42313F;
+    padding: 20px;
+    font-size: 0.8em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#myName {
+    text-transform: uppercase;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+    display: block;
+    margin-left: 8px;
+}
+#myTitle {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 1.5em;
+    text-align: right;
+    display: inline-block;
+    margin-left: 8px;
+    padding-top: 5px;
+}
+#contactSection {
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin: -30px 10px 0 0;
+}
+.fa-envelope {
+    color: white;
+    font-size: 60px;
+    padding: 0 30px 200px 0;
+}
+.fa-github,
+.fa-linkedin {
+    color: white;
+    font-size: 40px;
+    padding: 0 30px 200px 0;
+}
+#aboutSection {
+    margin: 5% 0;
+    #large-portrait {
+        display: inline-block;
+        margin-left: 5%;
+        margin-top: -20px;
+        border: 2px solid #42313F;
+        border-radius: 5px;
+    }
+    #myBio {
+        // display: inline-block;
+        // font-family: "Open Sans", "Arial", sans-serif;
+        // line-height: 1.5;
+        // font-size: 1.3em;
+        // width: 400px;
+        // height: 400px;
+        // margin: -400px 5% 300px 40%;
+        // text-align: left;
+        // vertical-align: middle;
+        display: inline-block;
+        font-family: "Open Sans", "Arial", sans-serif;
+        line-height: 1.5;
+        font-size: 1.2em;
+        width: 40%;
+        height: 400px;
+        margin: -380px 1px 200px 45%;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+    .about-button-wrap {
+        display: inline-block;
+        // margin: 5% 30% 5% 0;
+            margin: 5% 30% 30px 0;
+        width: 70%;
+    }
+    .about-button-wrap .about-button {
+        font-family: "Open Sans", "Arial", sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+        background-color: #95AF8C;
+        border-radius: 35px;
+        padding: 1% 5%;
+        color: white;
+        display: inline-block;
+        margin-top: 10px;
+        font-weight: 300;
+        border: solid 2px transparent;
+    }
+    .about-button-wrap .about-button2 {
+        font-family: "Open Sans", "Arial", sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+        background-color: #5E5E5E;
+        border-radius: 35px;
+        padding: 1% 5%;
+        color: white;
+        display: inline-block;
+        margin-top: 10px;
+        font-weight: 300;
+        border: solid 2px transparent;
+    }
+
+    .about-button-wrap .about-button3 {
+        font-family: "Open Sans", "Arial", sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+        background-color: #42313F;
+        border-radius: 35px;
+        padding: 1% 5%;
+        color: white;
+        display: inline-block;
+        margin-top: 10px;
+        font-weight: 300;
+        border: solid 2px transparent;
+    }
+
+    .about-button-wrap .about-button a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .about-button-wrap .about-button a:hover {
+        color: #95AF8C;
+        text-decoration: none;
+    }
+    .about-button:hover {
+        color: #95AF8C;
+        background-color: white;
+        border: 2px solid #95AF8C;
+    }
+
+    .about-button-wrap .about-button2 a {
+        color: white;
+        text-decoration: none;
+    }
+    .about-button-wrap .about-button2 a:hover {
+        color: #5E5E5E;
+        text-decoration: none;
+    }
+    .about-button2:hover {
+        color: #5E5E5E;
+        background-color: white;
+        border: 2px solid #5E5E5E;
+    }
+    .about-button-wrap .about-button3 a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .about-button-wrap .about-button3 a:hover {
+        color: #42313F;
+        text-decoration: none;
+    }
+    .about-button3:hover {
+        color: #42313F;
+        background-color: white;
+        border: 2px solid #42313F;
+    }
+
+    footer {
+        text-align: center;
+        margin: 20px auto;
+        position: relative;
+        left: auto;
+        bottom: auto;
+        width: auto;
+      }
+    }
+
+    button:focus {
+      outline: none;
+    }
+
+    .linkbutton1 {
+      background-color: #95AF8C;
+      font-size: 24px;
+      padding: 5px 10px;
+      color: white;
+      border: 2px solid #95AF8C;
+      border-radius: 50px;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      font-family: "Open Sans", "Arial", sans-serif;
+      font-size: 1em;
+          margin:5px;
+
+    }
+
+    .linkbutton1:hover {
+      background-color: white;
+      border: 2px solid #95AF8C;
+      color: #95AF8C;
+
+    }
+    .linkbutton2 {
+      background-color: #5E5E5E;
+      font-size: 24px;
+      padding: 5px 10px;
+      color: white;
+      border: 2px solid #5E5E5E;
+      border-radius: 50px;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+    }
+
+    .linkbutton2:hover {
+      background-color: white;
+      border: 2px solid #5E5E5E;
+      color: #5E5E5E;
+    }
+    .linkbutton3 {
+      background-color: #5E5E5E;
+      font-size: 24px;
+      padding: 5px 10px;
+      color: white;
+      border: 2px solid #5E5E5E;
+      border-radius: 50px;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      font-family: "Open Sans", "Arial", sans-serif;
+      font-size: 1em;
+      margin-bottom: 5px;
+    }
+
+    .linkbutton3:hover {
+      background-color: white;
+      border: 2px solid #5E5E5E;
+      color: #5E5E5E;
+    }
+
+    .element1 {
+      width: 40%;
+      display:inline-block;
+      margin-top: 50px;
+      vertical-align: top;
+
+    }
+
+    .element2 {
+      width: 40%;
+      display:inline-block;
+      margin-top: 50px;
+      text-align: left;
+
+    }
+
+    .container1 {
+      width: 95%;
+      display:inline-block;
+      height: 40%;
+      text-align: center;
+      vertical-align: top;
+      padding-bottom: 100px;
+    }
+
+    .container2 {
+      width: 100%;
+      display:inline-block;
+      height: 60%;
+      text-align: center;
+      vertical-align: top;
+      margin-top: -200px;
+    }
+
+.dot{
+  color:white
+}
+
+
+    .linklist {
+      width: 50%;
+    }
+
+    .project {
+      width: 30%;
+      height: 70%;
+      min-height: 700px;
+      display:inline-block;
+      border: 2px solid black;
+      text-align: center;
+      vertical-align: top;
+      border-radius: 12px;
+      padding-top: 5px;
+      margin-bottom: 20px;
+    }
+
+    .projectTitle{
+      font-family: "Open Sans", "Arial", sans-serif;
+    line-height: 1.6;
+    font-size: 1.4em;
+    }
+
+    .projectDescription{
+      font-family: "Open Sans", "Arial", sans-serif;
+    line-height: 1.5;
+    font-size: 1.1em;
+    text-align: left;
+    padding: 15px;
+    }
+
+    #footer {
+        height: 90px;
+        background-color: #42313F;
+        font-family: "Open Sans", "Arial", sans-serif;
+        padding: 5% 0 0 0;
+        color:white;
+        text-align: center;
+    }
+
+    #footer a {
+        color: white;
+        text-decoration: none;
+    }
+  }
+
+
+////////////  MOBILE VIEW  ////////////
+@media only screen and (max-width: 480px) {
+#header {
+    width: 100%;
+    height: 90px;
+    color: white;
+    background-color: #42313F;
+    padding: 20px;
+    font-size: 0.8em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#myName {
+    text-transform: uppercase;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    display: block;
+    margin-left: 8px;
+}
+#myTitle {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 1.5em;
+    text-align: right;
+    display: inline-block;
+    margin-left: 8px;
+    padding-top: 5px;
+}
+#contactSection {
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin: 15px 10px 0 10px;
+}
+.fa-envelope {
+    color: white;
+    font-size: 60px;
+    padding: 0 30px 200px 0;
+}
+.fa-github,
+.fa-linkedin {
+    color: white;
+    font-size: 40px;
+    padding: 0 30px 200px 0;
+}
+#aboutSection {
+    margin: 5% 0;
+    #large-portrait {
+        // display: inline-block;
+        display:none;
+        // margin-left: 5%;
+        // margin-top: -20px;
+        // border: 2px solid #42313F;
+        // border-radius: 5px;
+    }
+    #myBio {
+        // display: inline-block;
+        // font-family: "Open Sans", "Arial", sans-serif;
+        // line-height: 1.5;
+        // font-size: 1.3em;
+        // width: 400px;
+        // height: 400px;
+        // margin: -400px 5% 300px 40%;
+        // text-align: left;
+        // vertical-align: middle;
+
+        display: inline-block;
+        font-family: "Open Sans", "Arial", sans-serif;
+        line-height: 1.5;
+        font-size: 1.1em;
+        // width: 300px;
+        // margin: 0px 5% 3px 15px;
+        text-align: left;
+        vertical-align: middle;
+        margin: -120px 5% 60px 15px;
+    }
+    // @media (max-width: 840px) and (min-width: 600px)
+    .about-button-wrap {
+        display: inline-block;
+        margin: 5% 30% 45% 0;
+        width: 70%;
+    }
+    .about-button-wrap .about-button {
+        font-family: "Open Sans", "Arial", sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+        background-color: #95AF8C;
+        border-radius: 35px;
+        padding: 1% 5%;
+        color: white;
+        display: inline-block;
+        margin-top: 10px;
+        font-weight: 300;
+        border: solid 2px transparent;
+    }
+    .about-button-wrap .about-button2 {
+        font-family: "Open Sans", "Arial", sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+        background-color: #5E5E5E;
+        border-radius: 35px;
+        padding: 1% 5%;
+        color: white;
+        display: inline-block;
+        margin-top: 10px;
+        font-weight: 300;
+        border: solid 2px transparent;
+    }
+
+    .about-button-wrap .about-button3 {
+        font-family: "Open Sans", "Arial", sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+        background-color: #42313F;
+        border-radius: 35px;
+        padding: 1% 5%;
+        color: white;
+        display: inline-block;
+        margin-top: 10px;
+        font-weight: 300;
+        border: solid 2px transparent;
+    }
+
+    .about-button-wrap .about-button a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .about-button-wrap .about-button a:hover {
+        color: #95AF8C;
+        text-decoration: none;
+    }
+    .about-button:hover {
+        color: #95AF8C;
+        background-color: white;
+        border: 2px solid #95AF8C;
+    }
+
+    .about-button-wrap .about-button2 a {
+        color: white;
+        text-decoration: none;
+    }
+    .about-button-wrap .about-button2 a:hover {
+        color: #5E5E5E;
+        text-decoration: none;
+    }
+    .about-button2:hover {
+        color: #5E5E5E;
+        background-color: white;
+        border: 2px solid #5E5E5E;
+    }
+    .about-button-wrap .about-button3 a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .about-button-wrap .about-button3 a:hover {
+        color: #42313F;
+        text-decoration: none;
+    }
+    .about-button3:hover {
+        color: #42313F;
+        background-color: white;
+        border: 2px solid #42313F;
+    }
+
+    footer {
+        text-align: center;
+        margin: 20px auto;
+        position: relative;
+        left: auto;
+        bottom: auto;
+        width: auto;
+      }
+    }
+
+    button:focus {
+      outline: none;
+    }
+
+    .linkbutton1 {
+      background-color: #95AF8C;
+      font-size: 24px;
+      padding: 5px 10px;
+      color: white;
+      border: 2px solid #95AF8C;
+      border-radius: 50px;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      font-family: "Open Sans", "Arial", sans-serif;
+      font-size: 1em;
+          margin:5px;
+
+    }
+
+    .linkbutton1:hover {
+      background-color: white;
+      border: 2px solid #95AF8C;
+      color: #95AF8C;
+
+    }
+    .linkbutton2 {
+      background-color: #5E5E5E;
+      font-size: 24px;
+      padding: 5px 10px;
+      color: white;
+      border: 2px solid #5E5E5E;
+      border-radius: 50px;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+    }
+
+    .linkbutton2:hover {
+      background-color: white;
+      border: 2px solid #5E5E5E;
+      color: #5E5E5E;
+    }
+    .linkbutton3 {
+      background-color: #5E5E5E;
+      font-size: 24px;
+      padding: 5px 10px;
+      color: white;
+      border: 2px solid #5E5E5E;
+      border-radius: 50px;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      font-family: "Open Sans", "Arial", sans-serif;
+      font-size: 1em;
+      margin-bottom: 5px;
+    }
+
+    .linkbutton3:hover {
+      background-color: white;
+      border: 2px solid #5E5E5E;
+      color: #5E5E5E;
+    }
+
+    .element1 {
+      width: 40%;
+      display:inline-block;
+      margin-top: 50px;
+      vertical-align: top;
+
+    }
+
+    .element2 {
+      width: 40%;
+      display:inline-block;
+      margin-top: 50px;
+      text-align: left;
+
+    }
+
+    .container1 {
+      width: 95%;
+      display:inline-block;
+      height: 40%;
+      text-align: center;
+      vertical-align: top;
+      padding-bottom: 100px;
+    }
+
+    .container2 {
+      width: 100%;
+      display:inline-block;
+      height: 60%;
+      text-align: center;
+      vertical-align: top;
+      margin-top: -200px;
+    }
+
+.dot{
+  color:white
+}
+
+
+    .linklist {
+      width: 50%;
+    }
+
+    .project {
+      width: 30%;
+      height: 70%;
+      min-height: 700px;
+      display:inline-block;
+      border: 2px solid black;
+      text-align: center;
+      vertical-align: top;
+      border-radius: 12px;
+      padding-top: 5px;
+      margin-bottom: 20px;
+    }
+
+    .projectTitle{
+      font-family: "Open Sans", "Arial", sans-serif;
+    line-height: 1.6;
+    font-size: 1.4em;
+    }
+
+    .projectDescription{
+      font-family: "Open Sans", "Arial", sans-serif;
+    line-height: 1.5;
+    font-size: .8em;
+    text-align: left;
+    padding: 15px;
+    }
+
+    #footer {
+        height: 90px;
+        background-color: #42313F;
+        font-family: "Open Sans", "Arial", sans-serif;
+        padding: 5% 0 0 0;
+        color:white;
+        text-align: center;
+    }
+
+    #footer a {
+        color: white;
+        text-decoration: none;
+    }
+  }
