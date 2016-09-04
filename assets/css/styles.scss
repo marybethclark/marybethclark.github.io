@@ -1,3 +1,7 @@
+// ************************************************************************
+// *******  Code source credit to Tori Hedden http://torihedden.com/  *****
+// ************************************************************************
+
 $colorOldBurgundy: #42313F;
 $colorEbony: #5E5E5E;
 $colorDarkSeaGreen: #95AF8C;
@@ -5,10 +9,8 @@ $colorPastelGrey: #C9D8C5;
 $midGreyGreen: #739389;
 $lightGreyGreen: #D7E2DF;
 $darkGreyGreen: #5D6C67;
-$midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
-// font-family: 'Montserrat', sans-serif;
+$midGreyGreen: #739389;
 
-// Thanks to Tori Headden and Jason Jordan for their styling code portions.
 #contentWrapper {
     margin: 0;
     padding: 0;
@@ -19,7 +21,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
 }
 // ////////////  DESKTOP VIEW  ////////////
 @media only screen
-  and (min-width: 1020px) {
+  and (min-width: 1024px) {
 #header {
     width: 100%;
     height: 90px;
@@ -65,13 +67,11 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
 #aboutSection {
     margin: 5% 0;
     #large-portrait {
-        // display: inline-block;
         margin-left: 15%;
-        // margin-top: -20px;
-        // border: 2px solid #42313F;
-        // border-radius: 5px;
+        margin-top: -20px;
+        border: 2px solid #42313F;
+        border-radius: 5px;
         display: inline-block;
-        // margin-left: -45%;
 
     }
     #myBio {
@@ -84,7 +84,6 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         margin: -400px 5% 300px 40%;
         text-align: left;
         vertical-align: middle;
-
     }
 
     .about-button-wrap {
@@ -92,6 +91,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         margin: 5% 30% 5% 0;
         width: 70%;
     }
+
     .about-button-wrap .about-button {
         font-family: "Open Sans", "Arial", sans-serif;
         font-size: 1em;
@@ -105,6 +105,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         border: solid 2px transparent;
     }
+
     .about-button-wrap .about-button2 {
         font-family: "Open Sans", "Arial", sans-serif;
         font-size: 1em;
@@ -142,6 +143,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         color: #95AF8C;
         text-decoration: none;
     }
+
     .about-button:hover {
         color: #95AF8C;
         background-color: white;
@@ -152,15 +154,18 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         color: white;
         text-decoration: none;
     }
+
     .about-button-wrap .about-button2 a:hover {
         color: #5E5E5E;
         text-decoration: none;
     }
+
     .about-button2:hover {
         color: #5E5E5E;
         background-color: white;
         border: 2px solid #5E5E5E;
     }
+
     .about-button-wrap .about-button3 a {
         color: white;
         text-decoration: none;
@@ -170,6 +175,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         color: #42313F;
         text-decoration: none;
     }
+
     .about-button3:hover {
         color: #42313F;
         background-color: white;
@@ -184,8 +190,8 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         bottom: auto;
         width: auto;
       }
-    }
 
+    }
     button:focus {
       outline: none;
     }
@@ -202,15 +208,14 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       font-family: "Open Sans", "Arial", sans-serif;
       font-size: 1em;
           margin:5px;
-
     }
 
     .linkbutton1:hover {
       background-color: white;
       border: 2px solid #95AF8C;
       color: #95AF8C;
-
     }
+
     .linkbutton2 {
       background-color: #5E5E5E;
       font-size: 24px;
@@ -227,6 +232,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       border: 2px solid #5E5E5E;
       color: #5E5E5E;
     }
+
     .linkbutton3 {
       background-color: #5E5E5E;
       font-size: 24px;
@@ -252,7 +258,6 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       display:inline-block;
       margin-top: 50px;
       vertical-align: top;
-
     }
 
     .element2 {
@@ -260,7 +265,6 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       display:inline-block;
       margin-top: 50px;
       text-align: left;
-
     }
 
     .container1 {
@@ -281,10 +285,9 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       margin-top: -200px;
     }
 
-.dot{
-  color:white
-}
-
+    .dot{
+      color:white
+    }
 
     .linklist {
       width: 50%;
@@ -292,8 +295,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
 
     .project {
       width: 30%;
-      height: 70%;
-      min-height: 700px;
+      min-height: 1000px;
       display:inline-block;
       border: 2px solid black;
       text-align: center;
@@ -305,16 +307,16 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
 
     .projectTitle{
       font-family: "Open Sans", "Arial", sans-serif;
-    line-height: 1.6;
-    font-size: 1.4em;
+      line-height: 1.6;
+      font-size: 1.4em;
     }
 
     .projectDescription{
       font-family: "Open Sans", "Arial", sans-serif;
-    line-height: 1.5;
-    font-size: 1.1em;
-    text-align: left;
-    padding: 15px;
+      line-height: 1.5;
+      font-size: 1.1em;
+      text-align: left;
+      padding: 15px;
     }
 
     #footer {
@@ -334,7 +336,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
 ////////////  TABLET VIEW  ////////////
 @media only screen
   and (min-width: 480px)
-  and (max-width: 1020px){
+  and (max-width: 1024px){
 #header {
     width: 100%;
     height: 90px;
@@ -344,6 +346,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
     font-size: 0.8em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 #myName {
     text-transform: uppercase;
     font-family: "Open Sans", "Arial", sans-serif;
@@ -352,6 +355,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
     display: block;
     margin-left: 8px;
 }
+
 #myTitle {
     font-family: "Open Sans", "Arial", sans-serif;
     font-size: 1.5em;
@@ -360,23 +364,27 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
     margin-left: 8px;
     padding-top: 5px;
 }
+
 #contactSection {
     display: inline-block;
     float: right;
     position: relative;
     margin: -30px 10px 0 0;
 }
+
 .fa-envelope {
     color: white;
     font-size: 60px;
     padding: 0 30px 200px 0;
 }
+
 .fa-github,
 .fa-linkedin {
     color: white;
     font-size: 40px;
     padding: 0 30px 200px 0;
 }
+
 #aboutSection {
     margin: 5% 0;
     #large-portrait {
@@ -386,31 +394,22 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         border: 2px solid #42313F;
         border-radius: 5px;
     }
+
     #myBio {
-        // display: inline-block;
-        // font-family: "Open Sans", "Arial", sans-serif;
-        // line-height: 1.5;
-        // font-size: 1.3em;
-        // width: 400px;
-        // height: 400px;
-        // margin: -400px 5% 300px 40%;
-        // text-align: left;
-        // vertical-align: middle;
         display: inline-block;
         font-family: "Open Sans", "Arial", sans-serif;
         line-height: 1.2;
         font-size: 1.2em;
         width: 40%;
         height: 400px;
-        margin: -380px 1px 200px 55%;
+        margin: -380px 1px 200px 40%;
         text-align: left;
         vertical-align: middle;
     }
 
     .about-button-wrap {
         display: inline-block;
-        // margin: 5% 30% 5% 0;
-            margin: 5% 30% 30px 0;
+        margin: 5% 30% 30px 0;
         width: 70%;
     }
     .about-button-wrap .about-button {
@@ -426,6 +425,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         border: solid 2px transparent;
     }
+
     .about-button-wrap .about-button2 {
         font-family: "Open Sans", "Arial", sans-serif;
         font-size: 1em;
@@ -473,15 +473,18 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         color: white;
         text-decoration: none;
     }
+
     .about-button-wrap .about-button2 a:hover {
         color: #5E5E5E;
         text-decoration: none;
     }
+
     .about-button2:hover {
         color: #5E5E5E;
         background-color: white;
         border: 2px solid #5E5E5E;
     }
+
     .about-button-wrap .about-button3 a {
         color: white;
         text-decoration: none;
@@ -491,6 +494,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         color: #42313F;
         text-decoration: none;
     }
+
     .about-button3:hover {
         color: #42313F;
         background-color: white;
@@ -522,16 +526,15 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       transition-duration: 0.4s;
       font-family: "Open Sans", "Arial", sans-serif;
       font-size: 1em;
-          margin:5px;
-
+      margin:5px;
     }
 
     .linkbutton1:hover {
       background-color: white;
       border: 2px solid #95AF8C;
       color: #95AF8C;
-
     }
+
     .linkbutton2 {
       background-color: #5E5E5E;
       font-size: 24px;
@@ -548,6 +551,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       border: 2px solid #5E5E5E;
       color: #5E5E5E;
     }
+
     .linkbutton3 {
       background-color: #5E5E5E;
       font-size: 24px;
@@ -573,7 +577,6 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       display:inline-block;
       margin-top: 50px;
       vertical-align: top;
-
     }
 
     .element2 {
@@ -581,7 +584,6 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       display:inline-block;
       margin-top: 50px;
       text-align: left;
-
     }
 
     .container1 {
@@ -602,10 +604,9 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       margin-top: -200px;
     }
 
-.dot{
-  color:white
-}
-
+    .dot{
+      color:white
+    }
 
     .linklist {
       width: 50%;
@@ -614,7 +615,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
     .project {
       width: 30%;
       height: 70%;
-      min-height: 700px;
+      min-height: 900px;
       display:inline-block;
       border: 2px solid black;
       text-align: center;
@@ -626,16 +627,16 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
 
     .projectTitle{
       font-family: "Open Sans", "Arial", sans-serif;
-    line-height: 1.6;
-    font-size: 1.4em;
+      line-height: 1.6;
+      font-size: 1.4em;
     }
 
     .projectDescription{
       font-family: "Open Sans", "Arial", sans-serif;
-    line-height: 1.5;
-    font-size: 1.1em;
-    text-align: left;
-    padding: 15px;
+      line-height: 1.5;
+      font-size: 1.1em;
+      text-align: left;
+      padding: 15px;
     }
 
     #footer {
@@ -665,6 +666,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
     font-size: 0.8em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 #myName {
     text-transform: uppercase;
     font-family: "Open Sans", "Arial", sans-serif;
@@ -673,6 +675,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
     display: block;
     margin-left: 8px;
 }
+
 #myTitle {
     font-family: "Open Sans", "Arial", sans-serif;
     font-size: 1.5em;
@@ -681,60 +684,49 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
     margin-left: 8px;
     padding-top: 5px;
 }
+
 #contactSection {
     display: inline-block;
     float: left;
     position: relative;
     margin: 15px 10px 0 10px;
 }
+
 .fa-envelope {
     color: white;
     font-size: 60px;
     padding: 0 30px 200px 0;
 }
+
 .fa-github,
 .fa-linkedin {
     color: white;
     font-size: 40px;
     padding: 0 30px 200px 0;
 }
+
 #aboutSection {
     margin: 5% 0;
     #large-portrait {
-        // display: inline-block;
-        display:none;
-        // margin-left: 5%;
-        // margin-top: -20px;
-        // border: 2px solid #42313F;
-        // border-radius: 5px;
+    display:none;
     }
-    #myBio {
-        // display: inline-block;
-        // font-family: "Open Sans", "Arial", sans-serif;
-        // line-height: 1.5;
-        // font-size: 1.3em;
-        // width: 400px;
-        // height: 400px;
-        // margin: -400px 5% 300px 40%;
-        // text-align: left;
-        // vertical-align: middle;
 
+    #myBio {
         display: inline-block;
         font-family: "Open Sans", "Arial", sans-serif;
         line-height: 1.5;
         font-size: 1.1em;
-        // width: 300px;
-        // margin: 0px 5% 3px 15px;
         text-align: left;
         vertical-align: middle;
         margin: -120px 5% 60px 15px;
     }
-    // @media (max-width: 840px) and (min-width: 600px)
+
     .about-button-wrap {
         display: inline-block;
         margin: 5% 30% 45% 0;
         width: 70%;
     }
+
     .about-button-wrap .about-button {
         font-family: "Open Sans", "Arial", sans-serif;
         font-size: 1em;
@@ -748,6 +740,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         border: solid 2px transparent;
     }
+
     .about-button-wrap .about-button2 {
         font-family: "Open Sans", "Arial", sans-serif;
         font-size: 1em;
@@ -785,6 +778,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         color: #95AF8C;
         text-decoration: none;
     }
+
     .about-button:hover {
         color: #95AF8C;
         background-color: white;
@@ -795,15 +789,18 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         color: white;
         text-decoration: none;
     }
+
     .about-button-wrap .about-button2 a:hover {
         color: #5E5E5E;
         text-decoration: none;
     }
+
     .about-button2:hover {
         color: #5E5E5E;
         background-color: white;
         border: 2px solid #5E5E5E;
     }
+
     .about-button-wrap .about-button3 a {
         color: white;
         text-decoration: none;
@@ -813,6 +810,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
         color: #42313F;
         text-decoration: none;
     }
+
     .about-button3:hover {
         color: #42313F;
         background-color: white;
@@ -844,16 +842,15 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       transition-duration: 0.4s;
       font-family: "Open Sans", "Arial", sans-serif;
       font-size: 1em;
-          margin:5px;
-
+      margin:5px;
     }
 
     .linkbutton1:hover {
       background-color: white;
       border: 2px solid #95AF8C;
       color: #95AF8C;
-
     }
+
     .linkbutton2 {
       background-color: #5E5E5E;
       font-size: 24px;
@@ -870,6 +867,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       border: 2px solid #5E5E5E;
       color: #5E5E5E;
     }
+
     .linkbutton3 {
       background-color: #5E5E5E;
       font-size: 24px;
@@ -895,7 +893,6 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       display:inline-block;
       margin-top: 50px;
       vertical-align: top;
-
     }
 
     .element2 {
@@ -903,7 +900,6 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       display:inline-block;
       margin-top: 50px;
       text-align: left;
-
     }
 
     .container1 {
@@ -924,10 +920,9 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
       margin-top: -200px;
     }
 
-.dot{
-  color:white
-}
-
+    .dot{
+      color:white
+    }
 
     .linklist {
       width: 50%;
@@ -936,7 +931,7 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
     .project {
       width: 30%;
       height: 70%;
-      min-height: 700px;
+      min-height: 775px;
       display:inline-block;
       border: 2px solid black;
       text-align: center;
@@ -948,16 +943,16 @@ $midGreyGreen: #739389; // font-family: 'Open Sans', sans-serif;
 
     .projectTitle{
       font-family: "Open Sans", "Arial", sans-serif;
-    line-height: 1.6;
-    font-size: 1.1em;
+      line-height: 1.6;
+      font-size: 1.1em;
     }
 
     .projectDescription{
       font-family: "Open Sans", "Arial", sans-serif;
-    line-height: 1.5;
-    font-size: .8em;
-    text-align: left;
-    padding: 15px;
+      line-height: 1.5;
+      font-size: .8em;
+      text-align: left;
+      padding: 15px;
     }
 
     #footer {
