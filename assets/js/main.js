@@ -62,4 +62,8 @@ jQuery(document).ready(function($) {
     GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });
 
 
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> f93c7706cd1dc8424395cf566736c1b6e87c3f35
